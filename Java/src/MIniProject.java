@@ -1,9 +1,9 @@
 
 
-class Employee {
+class Employee2 {
 	private int salary;
 	
-	public Employee() {
+	public Employee2() {
 		salary = 3000000; //±âº»±Þ
 	}
 
@@ -17,7 +17,7 @@ class Employee {
 	
 }
 
-class Manager extends Employee {
+class Manager extends Employee2 {
 	
 	public Manager() {
 		super.setSalary(5000000);
@@ -29,7 +29,7 @@ class Manager extends Employee {
 	}
 }
 
-class Programmer extends Employee {
+class Programmer extends Employee2 {
 	
 	public Programmer() {
 		super.setSalary(6000000);
