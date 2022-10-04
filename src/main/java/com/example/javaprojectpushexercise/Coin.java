@@ -9,26 +9,37 @@ public class Coin {
 
 //        int[] currencyType = new int[]{50000,10000,5000,1000,500,100,50,10};
 
-        int curr50000 = 50000;
-        int curr10000 = 10000;
-        int curr5000 = 5000;
-        int curr1000 = 1000;
-        int curr500 = 500;
-        int money = 25000;
+        int money;
 
-        System.out.printf("%d원 %d장 나머지 %d원\n", curr50000, money / curr50000, curr50000);
-        money = money % curr50000;
-        System.out.printf("%d원 %d장 나머지 %d원\n", curr10000, money / curr10000, curr10000);
-        money = money % curr10000;
-        System.out.printf("%d원 %d장 나머지 %d원\n", curr5000, money / curr5000, curr5000);
-        money = money % curr5000;
-        System.out.printf("%d원 %d장 나머지 %d원\n", curr1000, money / curr1000, curr1000);
-        money = money % curr1000;
-        System.out.printf("%d원 %d장 나머지 %d원\n", curr500, money / curr500, curr500);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("금액을 넣어주세요: ");
 
+        money = sc.nextInt();
 
+        int money50000 = 50000;
+        int money10000 = 10000;
+        int money5000 = 5000;
+        int money1000 = 1000;
+        int money500 = 500;
+        int money100 = 100;
+        int money50 = 50;
+        int money10 = 10;
 
-
+        System.out.printf("50000원 몫: %d, 나머지: %d\n" , money/money50000, money%money50000);
+        money = money % money50000;
+        System.out.printf("10000원 몫: %d, 나머지: %d\n" , money/money10000, money%money10000);
+        money = money % money10000;
+        System.out.printf("5000원 몫: %d, 나머지: %d\n" , money/money5000, money%money5000);
+        money = money % money5000;
+        System.out.printf("1000원 몫: %d, 나머지: %d\n" , money/money1000, money%money1000);
+        money = money % money1000;
+        System.out.printf("500원 몫: %d, 나머지: %d\n" , money/money500, money%money500);
+        money = money % money500;
+        System.out.printf("100원 몫: %d, 나머지: %d\n" , money/money100, money%money100);
+        money = money % money100;
+        System.out.printf("50원 몫: %d, 나머지: %d\n" , money/money50, money%money50);
+        money = money % money50;
+        System.out.printf("10원 몫: %d, 나머지: %d\n" , money/money10, money%money10);
 
 //        int money = sc.nextInt();
 
