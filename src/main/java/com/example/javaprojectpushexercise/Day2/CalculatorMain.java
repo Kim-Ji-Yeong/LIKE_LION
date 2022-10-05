@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise;
+package com.example.javaprojectpushexercise.Day2;
 
 public class CalculatorMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise;
+package com.example.javaprojectpushexercise.Day1;
 
 public class EvenOdd2 {
     public static String getEvenOdd(int num){

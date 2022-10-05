@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise;
+package com.example.javaprojectpushexercise.Day1;
 
 import java.util.Arrays;
 
