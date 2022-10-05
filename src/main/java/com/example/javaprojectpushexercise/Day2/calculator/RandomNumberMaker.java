@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise.calculator;
+package com.example.javaprojectpushexercise.Day2.calculator;
 
 public class RandomNumberMaker implements  NumberMaker{
     @Override

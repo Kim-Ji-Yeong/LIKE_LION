@@ -1,10 +1,27 @@
 package com.example.javaprojectpushexercise.Day2.collection;
 
+
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Names {
     private List<String> students = new ArrayList<>();
+    private List<Student> studentObjs = new ArrayList<>();
+
+
+    public List<Student> getStudetObjs(){
+        this.studentObjs.add(new Student(1,"김경록","https://github.com/Kyeongrok/like-lion-java"));
+        this.studentObjs.add(new Student(1,"권하준","https://github.com/dongyeon-0822/java-project-exercise"));
+        this.studentObjs.add(new Student(1,"조성윤","https://github.com/kang-subin/Java"));
+        this.studentObjs.add(new Student(3,"안예은","https://github.com/KoKwanwun/LikeLion.git"));
+        this.studentObjs.add(new Student(1,"남우빈","https://github.com/lcomment/Algorithm_Solution--Java/tree/main/LikeLion"));
+
+
+
+        return this.studentObjs;
+    }
+
 
     public List<String> names(){
         this.students.add("조성윤");

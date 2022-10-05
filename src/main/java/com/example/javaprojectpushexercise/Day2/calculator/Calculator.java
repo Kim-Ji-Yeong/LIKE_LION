@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise.calculator;
+package com.example.javaprojectpushexercise.Day2.calculator;
 
 public class Calculator {
     // NumberMaker에서 만들어준 숫자를 가지고
