@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise.Day3.collection;
+package com.example.javaprojectpushexercise.Day3.collection.student_list;
 
 import java.util.List;
 

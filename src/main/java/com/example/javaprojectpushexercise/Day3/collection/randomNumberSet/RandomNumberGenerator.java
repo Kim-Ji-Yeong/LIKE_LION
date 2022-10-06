@@ -1,4 +1,4 @@
-package com.example.javaprojectpushexercise.Day3.collection;
+package com.example.javaprojectpushexercise.Day3.collection.randomNumberSet;
 
 public class RandomNumberGenerator implements NumberGenerator{
 
