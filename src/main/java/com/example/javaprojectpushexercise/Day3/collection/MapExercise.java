@@ -48,7 +48,6 @@ public class MapExercise {
         System.out.println(map.get("권아윤"));
         System.out.println(map.get("박도아"));
         System.out.println(map.get("유서이"));
-        System.out.println(map.get("남혜준"));
-
+        System.out.println(map.get("권은재"));
     }
 }
