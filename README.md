@@ -5,10 +5,12 @@
 <summary>week4</summary>
 <div markdown="1">
 
-221011 (알고리즘, Docker, MySQL)
+## 221011 (알고리즘, Docker, MySQL)
+
 Programmers_12931 : 자릿수 더하기
 
-221012 (csv parser)
+## 221012 (csv parser)
+
 domain
 
   ◻ Hospital : 데이터를 저장할 클래스 정의
@@ -20,13 +22,15 @@ parser
 LineReader : 각 줄을 읽어 T 형태로 리턴
 Main : 서울시 병의원 위치 정보.csv를 가져와 사이즈와 id 출력
 
-221013 (SelectionSort, .sql 형식으로 데이터 전처리)
+## 221013 (SelectionSort, .sql 형식으로 데이터 전처리)
+
 bubblesort
 
   ◻ BubbleSort01 : 버블 정렬 알고리즘(앞에서부터 값 고정)
 LikeLion-gradle Repository : .sql 형식으로 데이터 전처리 후 MySQL에 불러오기
 
-221014 (InsertionSort)
+## 221014 (InsertionSort)
+
 insertionsort
 
   ◻ InsertionSort01 : 삽입 정렬 알고리즘(이중 for문 사용)
@@ -42,7 +46,8 @@ insertionsort
 <summary>week3</summary>
 <div markdown="1">
 
-221004 (Array)
+## 221004 (Array)
+
 HelloWorld : Hello World 출력
   
 ArrayTest : 크기가 10인 배열 만들고 1~10 넣고 출력
@@ -52,7 +57,8 @@ Even_Odd : 홀수 짝수 문제
   
 Even_Odd_1161 : 정수를 입력 받아 홀수 짝수 문제
   
-221005 (Interface, List)
+## 221005 (Interface, List)
+
 randomCalculator
 
   ◻ interface를 만들어 랜덤한 수
@@ -65,7 +71,7 @@ Collection
 
   ◻ 5명의 정보(반, 이름, 깃주소) 출력
   
-221006 (List, Set, Map)
+## 221006 (List, Set, Map)
   
 Student_List : List를 활용하여 학생이름 5명 출력
 SetExercise : Set 테스트
@@ -86,7 +92,8 @@ File
 
   ◻ 1줄, n줄 읽기
   
-221007 (대용량파일 불러오기)
+## 221007 (대용량파일 불러오기)
+
 MiniProject : 2021년 인구관련연간 자료를 활용하여 2021 서울에서 가장 많이 이사간 지역은 어디인지 알아내기
 
   ◻ 파일 생성 및 작성
