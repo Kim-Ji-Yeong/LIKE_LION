@@ -6,18 +6,18 @@
 
 ## 221017
 
-별찍기 알고리즘
-db와 프로젝트 연결 (jdbc)
-환경변수를 이용한 host, user, pw암호화
-connection, preparedStatement를 이용한 insert, select
-병원정보 insert
-html, css 기초
+* 별찍기 알고리즘
+* db와 프로젝트 연결 (jdbc)
+* 환경변수를 이용한 host, user, pw암호화
+* connection, preparedStatement를 이용한 insert, select
+* 병원정보 insert
+
 
 ## 221018
 
-별찍기 알고리즘2
-connection의 분리 추상클래스, 클래스
-insert테스트 케이스 작성
+* 별찍기 알고리즘2
+* connection의 분리 추상클래스, 클래스
+* insert테스트 케이스 작성
 
 
 </div>
