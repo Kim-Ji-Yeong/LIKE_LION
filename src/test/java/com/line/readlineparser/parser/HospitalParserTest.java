@@ -42,7 +42,7 @@ class HospitalParserTest {
         Hospital hospital = hospitalParser.parse(this.line1);
         String address = "서울특별시 금천구 벚꽃로 286 삼성리더스타워 111~114호 (가산동)";
 
-        assertHospital(hospitalParser.parse(this.line3),
+        assertHospital(hospitalParser.parse(this.line1),
                 "A1120837","서울특별시 금천구 벚꽃로 286 삼성리더스타워 111~114호 (가산동)","서울특별시 금천구",
                 "C",2,"가산기대찬의원",""
         );

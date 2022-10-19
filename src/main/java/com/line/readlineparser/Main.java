@@ -13,17 +13,26 @@ public class Main {
         String filename = "C:\\Users\\proje\\Desktop\\seoul_hospitals_infos.csv";
         List<Hospital> hospitals = hospitalFileController.readLines(filename);
 
-        System.out.println(hospitals.size());
-        List<String> lines = new ArrayList<>();
-        for(Hospital hospital : hospitals){
-            lines.add(hospital.getSqlInsertQuery());
-//            System.out.printf("%s,%s,%s,%s,%d,%s,%s\n",
-//                    hospital.getId(),hospital.getAddress(),hospital.getDistrict()
-//            ,hospital.getCategory(),hospital.getEmergencyRoom(),hospital.getName(),
-//                    hospital.getSubdivision());
+        List<String> sqlStatements = new ArrayList<>();
+        for(Hospital hospital: hospitals){
+            sqlStatements.add(hospital.getSqlInsertQuery());
         }
-        String sqlFilename = "hospital_insert.sql";
+        String sqlFilename = "seoul_hospital_insert.sql";
         hospitalFileController.createANewFile(sqlFilename);
-        hospitalFileController.writeLines(lines,sqlFilename);
+        hospitalFileController.writeLines(sqlStatements,sqlFilename);
+
+
+//        System.out.println(hospitals.size());
+//        List<String> lines = new ArrayList<>();
+//        for(Hospital hospital : hospitals){
+//            lines.add(hospital.getSqlInsertQuery());
+////            System.out.printf("%s,%s,%s,%s,%d,%s,%s\n",
+////                    hospital.getId(),hospital.getAddress(),hospital.getDistrict()
+////            ,hospital.getCategory(),hospital.getEmergencyRoom(),hospital.getName(),
+////                    hospital.getSubdivision());
+//        }
+//        String sqlFilename = "hospital_insert.sql";
+//        hospitalFileController.createANewFile(sqlFilename);
+//        hospitalFileController.writeLines(lines,sqlFilename);
     }
 }

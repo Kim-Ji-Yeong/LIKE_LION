@@ -30,8 +30,8 @@ public class Hospital {
                 "(\"%s\",\n" +
                 "\"%s\",\n" +
                 "\"%s\",\n" +
-                "%d,\n" +
                 "\"%s\",\n" +
+                "%d,\n" +
                 "\"%s\",\n" +
                 "\"%s\");",this.id,this.address,this.district,this.category,this.emergencyRoom,this.name,this.subdivision);
         return sql;
