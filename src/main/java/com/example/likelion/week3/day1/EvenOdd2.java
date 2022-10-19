@@ -1,4 +1,4 @@
-package com.example.likelion.week3.Day1;
+package com.example.likelion.week3.day1;
 
 public class EvenOdd2 {
     public static String getEvenOdd(int num){
