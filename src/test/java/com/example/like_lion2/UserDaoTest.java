@@ -24,7 +24,6 @@ class UserDaoTest {
     @Autowired
     ApplicationContext context;
 
-
     UserDao userDao;
     User user1;
     User user2;

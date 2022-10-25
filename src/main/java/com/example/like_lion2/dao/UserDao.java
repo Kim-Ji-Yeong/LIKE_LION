@@ -113,7 +113,6 @@ public class UserDao {
     }
 
     public void deleteAll() throws SQLException {
-
         Connection c = null;
         PreparedStatement ps = null;
         try {
