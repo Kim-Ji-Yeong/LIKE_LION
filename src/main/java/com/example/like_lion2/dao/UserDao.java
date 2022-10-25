@@ -3,6 +3,7 @@ package com.example.like_lion2.dao;
 import com.example.like_lion2.domain.User;
 import org.springframework.dao.EmptyResultDataAccessException;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.Map;
 
@@ -17,6 +18,7 @@ public class UserDao {
     public UserDao(ConnectionMaker connectionMaker) {
         this.connectionMaker = connectionMaker;
     }
+
 
     public void add(User user) throws SQLException, ClassNotFoundException {
         Map<String, String> env = System.getenv();
@@ -117,7 +119,7 @@ public class UserDao {
         PreparedStatement ps = null;
         try {
             c = connectionMaker.makeConnection();
-            ps = c.prepareStatement("DELETE FROM users");
+            ps = new DeleteAllStrategy().makePreparedStatement(c);
             ps.executeUpdate();
             // int를 반환한다. 결과값이 없는 쿼리를 실행 할 때 쓴다. ex) add()
         } catch (SQLException e) {
